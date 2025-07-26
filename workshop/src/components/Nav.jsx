@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
     return(
         <>
-            <nav className="nav fixed top-0 w-full z-50 flex justify-between items-center text-black px-30 py-4 shadow">
+            <nav className="nav fixed top-0 w-full z-50 flex justify-between  bg-white items-center px-40 py-2 shadow">
                 <div className="logo">
                     <img
                     src="https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/layout_2/m66gvf7w/element_203/rwdMode_1/118x94/logo.webp"
@@ -12,7 +12,7 @@ const Nav = () => {
                     className="rounded h-12"
                     />
                 </div>
-                <div className="navlinks flex space-x-6">
+                <div className="navlinks flex gap-6 space-x-6 uppercase font-semibold">
                     <Link to="/">Home</Link>
                     <Link to="/shop">Shop</Link>
                     <Link to="/blog">Blog</Link>

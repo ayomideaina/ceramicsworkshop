@@ -1,15 +1,20 @@
 import React from 'react';
 import Header from '../components/Header';
-import Nav from '../components/Nav';
+import BestSeller from '../components/BestSeller';
+import New from '../components/New';
+import Work from '../components/Works';
+import Works from '../components/Works';
+import Employee from '../components/Employee';
 
 
 const Home = () => {
     return(
         <>
-           <Nav/>
            <Header/>
-
-           <h1>landing page</h1>
+           <BestSeller/>
+           <New/>
+           <Works/>
+           <Employee/>
         </>
     );
 }
