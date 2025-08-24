@@ -28,7 +28,7 @@ const Employee = () => {
 
   return(
     <>
-    <section className="bg-gray-100 py-16 px-4 bg-gray-50 min-h-screen flex items-center">
+    <section className="bg-gray-100 py-16 px-4  min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto w-full">
             <div className="text-center mb-16">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">Our employees</h2>

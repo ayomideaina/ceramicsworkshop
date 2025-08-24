@@ -15,7 +15,7 @@ const New= () => {
                         Etiam aliquam posuere hendrerit. Curabitur egestas sed nisl rhoncus finibus.
                     </p>
                     <Link to="/shop">
-                        <button className="btn px-15 py-3 text-lg mt-9 m-auto text-white">More</button>
+                        <button className="btn px-10 py-3 text-lg mt-9 m-auto text-white">More</button>
                     </Link>
                 </div>
                 {/* Right column: 2 columns with 3 images  */}

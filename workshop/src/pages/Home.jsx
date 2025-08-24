@@ -5,6 +5,8 @@ import New from '../components/New';
 import Work from '../components/Works';
 import Works from '../components/Works';
 import Employee from '../components/Employee';
+import OurStory from '../components/OurStory';
+import Footer from '../components/Footer';
 
 
 const Home = () => {
@@ -15,6 +17,8 @@ const Home = () => {
            <New/>
            <Works/>
            <Employee/>
+           <OurStory/>
+           <Footer/>
         </>
     );
 }

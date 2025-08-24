@@ -23,7 +23,7 @@ const Works= () => {
                         Etiam aliquam posuere hendrerit. Curabitur egestas sed nisl rhoncus finibus.
                     </p>
                     <Link to="/workshop">
-                        <button className="btn px-15 py-3 text-lg mt-9 m-auto text-white">Subscribe</button>
+                        <button className="btn px-10 py-3 text-lg mt-9 m-auto text-white">Subscribe</button>
                     </Link>
                 </div>
             </div> 

@@ -11,10 +11,7 @@ const Header = () => {
                 bg-[url(https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/webpage_11/m66gvjjz/element_210/rwdMode_1/2400x836/main.webp)] 
                 bg-center h-screen bg-cover bg-no-repeat bg-fixed flex items-center justify-center text-center"
             >
-                
-                
-                {/* <div className="absolute  inset-0 bg-opacity-60 z-10"></div> */}
-
+                {/* text content */}
                 <div className="hero relative texts-center  text-White px-6 py-40 max-w-4xl mx-auto z-20">
                     <h1 className=" lg:text-7xl mb-5 md:text-4xl text-white text-3xl font-bold">
                         Ceramics studio
