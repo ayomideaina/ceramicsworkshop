@@ -8,7 +8,7 @@ const Contact= () => {
         <>
             <Nav/>
             <section className="contact-me">
-                <div className="bg-[url(https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/webpage_11/m66gvjjz/element_241/rwdMode_1/2400x800/history.webp)] 
+                <div className="bg-[url(https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/webpage_14/m66gvl2k/element_283/rwdMode_1/2400x284/contact_header.webp)] 
                     bg-center h-full bg-cover bg-no-repeat bg-fixed flex items-center">
                     <div className="relative text-center text-white px-4 py-40 max-w-4xl mx-auto z-20">
                         <h1 className="lg:text-7xl mb-5 md:text-4xl text-white text-3xl font-bold">
