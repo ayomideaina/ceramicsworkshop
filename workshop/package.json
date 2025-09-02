@@ -1,6 +1,6 @@
 {
-  "name": "workshop",
-  "homepage": "https://ayomideaina.github.io/ceramicsworkshop",
+  "name": "ceramicsworkshop",
+  "homepage": "https://ayomideaina.github.io/ceramicsworkshop/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
