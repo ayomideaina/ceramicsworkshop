@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
 
-const Header = () => {
+const Hero = () => {
     return(
         <>
-           <header 
+            <Nav/>
+           <div 
                 className="header 
                 bg-[url(https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/webpage_11/m66gvjjz/element_210/rwdMode_1/2400x836/main.webp)] 
                 bg-center h-screen bg-cover bg-no-repeat bg-fixed flex items-center justify-center text-center"
@@ -21,9 +22,9 @@ const Header = () => {
                         <button className="btn px-12 py-3 text-lg mt-16 m-auto text-white  flex justify-center items-center">Show More</button>
                     </Link>
                 </div>
-            </header>
+            </div>
         </>
     )
 }
 
-export default Header;
+export default Hero;
