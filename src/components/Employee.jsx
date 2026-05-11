@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import { Link } from "react-router-dom";
 
 const Employee = () => {
@@ -34,7 +34,6 @@ const Employee = () => {
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">Our employees</h2>
             </div>
 
-            {/* Employee Cards Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
                 {employees.map((employee) => (
                     <div key={employee.id} className="text-center">

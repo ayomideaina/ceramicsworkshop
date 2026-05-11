@@ -8,7 +8,6 @@ const Nav = () => {
     return(
         <>
             <nav className="nav fixed top-0 w-full z-50 flex justify-between  bg-white items-center px-4 md:px-8 lg:px-40 py-2 shadow">
-                
                 <div className="logo">
                     <img
                     src="https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/layout_2/m66gvf7w/element_203/rwdMode_1/118x94/logo.webp"
@@ -24,7 +23,6 @@ const Nav = () => {
                     <Link to="/contact">Contact</Link>
                 </div>
 
-                {/* mobile responsiveness */}
                 <button
                     className="md:hidden flex flex-col gap-1 p-2"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
