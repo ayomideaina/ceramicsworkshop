@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Link } from "react-router-dom";
 
 const OurStory= () => {
@@ -10,7 +9,7 @@ const OurStory= () => {
                 bg-center h-full bg-cover bg-no-repeat bg-fixed flex items-center"
             >
 
-                <div className="relative md:text-left  text-white px-4 py-40 md:max-w-xl md:mx-30 z-20 text-center">
+                <div className="relative md:text-left  text-white px-9 py-40 md:max-w-xl md:mx-30 z-20 text-center">
                     <h1 className=" lg:text-7xl mb-5 md:text-4xl text-white text-3xl font-bold">
                         Our Story
                     </h1>

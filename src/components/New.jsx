@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const New= () => {
   return(
     <>
-       <section className="bg-gray-100 my-8 md:mt-12 px-4 sm:px-8 md:px-12 lg:px-20 py-8 md:py-12 h-auto">
+       <section className="bg-gray-100 section-container h-auto">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                 <div className="text-center lg:text-left">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-5">New</h1>

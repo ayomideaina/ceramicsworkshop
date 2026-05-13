@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Works= () => {
   return(
     <>
-       <section className="bg-white my-8 md:mt-12 px-4 sm:px-8 md:px-12 lg:px-20 py-8 md:py-12">
+       <section className="bg-white section-container">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 items-center">
                 <div className="grid grid-cols-1 gap-4 md:gap-6 ">
                     <img className="w-full h-150 object-cover rounded-lg shadow-sm"

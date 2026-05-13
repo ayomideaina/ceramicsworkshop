@@ -5,11 +5,14 @@ import Shop from "./pages/Shop";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import Ceramicworkshop from "./pages/Ceramicworkshop";
+import Footer from "./components/Footer";
+import Nav from "./components/Nav";
 
 
 function App() {
   return (
     <Router>
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
@@ -17,6 +20,7 @@ function App() {
         <Route path="/ceramicworkshop" element={<Ceramicworkshop/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }

@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const ContactForm = ({ fields = [], rows = 6, buttonText = "SEND" }) => {
   return (
     <form className="space-y-6">
@@ -28,12 +30,13 @@ const ContactForm = ({ fields = [], rows = 6, buttonText = "SEND" }) => {
       ))}
 
       <div className="mb-2">
-        <button
+        <Button type="submit" variant="primary">{buttonText}</Button>
+        {/* <button
           type="submit"
           className="btn text-white px-10 py-3 font-medium text-uppercase border-0"
         >
           {buttonText}
-        </button>
+        </button> */}
       </div>
     </form>
   );
